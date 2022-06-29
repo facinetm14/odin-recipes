@@ -2,14 +2,35 @@
 <html lang="en">
     <head>
         <title>Receipes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Odin Receipes</h1>
-        <ul>
-            <li><a href="receipes/peanutty_ice.html">peanutty Ice Cream Pie</a></li>
-            <li><a href="receipes/two_ingredient.html">Two- Ingredient Dough Soft Pretzels</a></li>
-            <li><a href="receipes/thornehedge.html">Thornedhedge Peach Slaw</a></li>
-        </ul>
+        <div class="container">
+            <header>
+                <h1>Odin Receipes</h1>
+                <img src="banner_restau.jpg">
+            </header>
+            <p class="slogan">Enjoy yourself with our specials recipes !</p>
+            <div class="list-receipes">
+                <div class="receipes">
+                    <h2 class="receipes-title">Thornehedge</h2>
+                    <div class="receipes-img"><img src="receipes/thorehedge-blank.png"/></div>
+                    <a href="receipes/thornehedge.html"><button class="receipes-details" href="receipes/peanutty_ice.html">Details</button></a>
+                </div>
+                <div class="receipes">
+                    <h2 class="receipes-title">peanutty Ice</h2>
+                    <div class="receipes-img"><img src="receipes/peaunutty-blank.png"/></div>
+                    <a href="receipes/peanutty_ice.html"><button class="receipes-details" href="receipes/peanutty_ice.html">Details</button></a>
+                </div>
+                <div class="receipes">
+                    <h2 class="receipes-title">Dough Soft</h2>
+                    <div class="receipes-img"><img src="receipes/two_igredient-blank.png"/></div>
+                    <a href="receipes/two_ingredient.html"><button class="receipes-details" href="receipes/peanutty_ice.html">Details</button></a>
+                </div>
+            </div>
+        </div>
+        <footer class="developer">by <strong>Facinet Kouyate</strong> - copyright 2022</footer>
     </body>
 </html>
